@@ -8,6 +8,7 @@ map{ id = "castle/slime_room", description = "Slime room" }
 map{ id = "house", description = "House" }
 map{ id = "hub", description = "Hub" }
 map{ id = "outside", description = "Outside" }
+map{ id = "overworld/green_ruins", description = "Green Ruins" }
 map{ id = "zane_desert", description = "Zane Desert" }
 map{ id = "zane_forest", description = "Zane Forest" }
 map{ id = "zoria_forest", description = "Zoria Forest" }

@@ -12,7 +12,7 @@ local initial_game = {}
 -- Sets initial values to a new savegame file.
 function initial_game:initialize_new_savegame(game)
 
-  game:set_starting_location("hub", nil)  -- Starting location.
+  game:set_starting_location("overworld/green_ruins", nil)  -- Starting location.
 
   game:set_max_life(12)
   game:set_life(game:get_max_life())
