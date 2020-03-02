@@ -1,0 +1,16 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "legend-of-zelda-dx",
+  title = "The Legend Of Zelda DX",
+  short_description = "A new way of playing the original The Legend Of Zelda",
+  long_description = [[
+The original Legend Of Zelda (Famicom 1986), remade using Game Boy Color games assets with little tweaks here and there to make it more acessible! :-)]],
+  author = "Ricardo Zanini",
+  quest_version = "0.01",
+  release_date = "",
+  website = "http://www.solarus-games.org",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
+}
+

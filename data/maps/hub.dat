@@ -1,0 +1,850 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "oh_indoors_stone",
+  music = "eduardo/mountains",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 224,
+  height = 144,
+  pattern = "ground1.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "corner.in.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "corner.in.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "corner.in.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "corner.in.3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.1",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.2",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.1",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.2",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.1",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall.up.2",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.1",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.1",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall.down.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 96,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 128,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 112,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 176,
+  width = 32,
+  height = 16,
+  pattern = "wall.right.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 48,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 80,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 96,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 112,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 128,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 144,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 176,
+  width = 32,
+  height = 16,
+  pattern = "wall.left.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "39",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "39",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "ground1.3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "ground1.2",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "18",
+}
+
+destination{
+  name = "start_position",
+  layer = 0,
+  x = 160,
+  y = 125,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  destination_map = "beach",
+  destination = "start_position",
+  sprite = "teletransporters/teletransporter_yellow",
+}
+
+npc{
+  layer = 0,
+  x = 72,
+  y = 77,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/sign",
+  behavior = "dialog#hub.sign_1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "castle/castle",
+  destination = "from_outside",
+  sprite = "teletransporters/teletransporter_yellow",
+}
+
+teletransporter{
+  layer = 0,
+  x = 224,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "zane_desert",
+  sprite = "teletransporters/teletransporter_yellow",
+}
+
+teletransporter{
+  layer = 0,
+  x = 224,
+  y = 64,
+  width = 16,
+  height = 16,
+  destination_map = "zoria_forest",
+  destination = "start_position",
+  sprite = "teletransporters/teletransporter_yellow",
+}
+
+npc{
+  layer = 0,
+  x = 248,
+  y = 77,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/sign",
+  behavior = "dialog#hub.sign_2",
+}
+
+npc{
+  layer = 0,
+  x = 248,
+  y = 173,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/sign",
+  behavior = "dialog#hub.sign_4",
+}
+
+npc{
+  layer = 0,
+  x = 72,
+  y = 173,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/sign",
+  behavior = "dialog#hub.sign_3",
+}
+
+destination{
+  name = "destination_1",
+  layer = 0,
+  x = 104,
+  y = 77,
+  direction = 0,
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 216,
+  y = 77,
+  direction = 2,
+}
+
+destination{
+  name = "destination_3",
+  layer = 0,
+  x = 104,
+  y = 173,
+  direction = 0,
+}
+
+destination{
+  name = "destination_4",
+  layer = 0,
+  x = 216,
+  y = 173,
+  direction = 2,
+}
+
+npc{
+  layer = 0,
+  x = 144,
+  y = 93,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/sign",
+  behavior = "dialog#hub.welcome_sign",
+}
+
+chest{
+  layer = 0,
+  x = 176,
+  y = 93,
+  treasure_name = "sword",
+  treasure_savegame_variable = "hub_sword_chest",
+  sprite = "chests/chest_brown",
+}
+
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "house",
+  destination = "start_position",
+  sprite = "teletransporters/teletransporter_yellow",
+}
+
+npc{
+  layer = 0,
+  x = 72,
+  y = 125,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/sign",
+  behavior = "dialog#hub.sign_5",
+}
+
+destination{
+  name = "destination_5",
+  layer = 0,
+  x = 104,
+  y = 125,
+  direction = 0,
+}
+
+teletransporter{
+  layer = 0,
+  x = 224,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "outside",
+  destination = "start_position",
+  sprite = "teletransporters/teletransporter_yellow",
+}
+
+npc{
+  layer = 0,
+  x = 248,
+  y = 125,
+  direction = 3,
+  subtype = 0,
+  sprite = "npc/sign",
+  behavior = "dialog#hub.sign_6",
+}
+
+destination{
+  name = "destination_6",
+  layer = 0,
+  x = 216,
+  y = 125,
+  direction = 2,
+}
+
