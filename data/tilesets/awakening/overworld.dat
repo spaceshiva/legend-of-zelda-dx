@@ -165,7 +165,7 @@ tile_pattern{
 
 tile_pattern{
   id = "23",
-  ground = "grass",
+  ground = "wall",
   default_layer = 0,
   x = 0,
   y = 80,
