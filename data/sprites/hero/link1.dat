@@ -9,6 +9,16 @@ animation{
   },
 }
 animation{
+  name = "brandish",
+  src_image = "hero/link1.png",
+  directions = {
+    { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "stopped_no_shield",
   src_image = "hero/link1.png",
   frame_delay = 30,
@@ -17,6 +27,27 @@ animation{
     { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "sword",
+  src_image = "hero/link1_sword.png",
+  frame_delay = 30,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 96, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 3 },
+  },
+}
+animation{
+  name = "sword_loading_stopped",
+  src_image = "hero/link1_sword.png",
+  directions = {
+    { x = 96, y = 16, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13 },
+    { x = 96, y = 32, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 29 },
+    { x = 96, y = 80, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 13 },
+    { x = 112, y = 96, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 29 },
   },
 }
 animation{

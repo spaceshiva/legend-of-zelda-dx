@@ -1069,3 +1069,12 @@ destination{
   direction = 3,
 }
 
+chest{
+  layer = 0,
+  x = 200,
+  y = 133,
+  treasure_name = "sword",
+  treasure_savegame_variable = "hub_sword_chest",
+  sprite = "chests/chest_brown",
+}
+
