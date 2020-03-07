@@ -90,6 +90,7 @@ sprite{ id = "ground_effects/water_splash", description = "Water splash" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
 sprite{ id = "hero/link1", description = "Link with green armor" }
+sprite{ id = "hero/link_sword1", description = "Link first sword" }
 sprite{ id = "hero/rachel_sword", description = "Sword" }
 sprite{ id = "hero/rachel_tunic", description = "Rachel" }
 sprite{ id = "hero/robyne_tunic", description = "Robyne purple" }
