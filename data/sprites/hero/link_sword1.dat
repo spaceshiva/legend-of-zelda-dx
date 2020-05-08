@@ -10,6 +10,17 @@ animation{
   },
 }
 animation{
+  name = "spin_attack",
+  src_image = "hero/link_sword1.png",
+  frame_delay = 40,
+  directions = {
+    { x = 0, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 9 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 9 },
+    { x = 0, y = 256, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 9 },
+    { x = 0, y = 320, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 9 },
+  },
+}
+animation{
   name = "sword_loading_stopped",
   src_image = "hero/link_sword1.png",
   directions = {
