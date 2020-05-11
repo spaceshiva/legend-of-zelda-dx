@@ -42,24 +42,33 @@ animation{
 }
 animation{
   name = "sword_loading_stopped",
-  src_image = "hero/link1.png",
+  src_image = "hero/new_link1.png",
   directions = {
-    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 16, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 16, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 440, y = 0, frame_width = 40, frame_height = 24, origin_x = 20, origin_y = 21 },
+    { x = 504, y = 0, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 37 },
+    { x = 440, y = 24, frame_width = 40, frame_height = 24, origin_x = 20, origin_y = 21 },
+    { x = 504, y = 40, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 37 },
   },
 }
 animation{
   name = "sword_loading_walking",
-  src_image = "hero/link1.png",
+  src_image = "hero/new_link1.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 400, y = 0, frame_width = 40, frame_height = 24, origin_x = 20, origin_y = 21, num_frames = 2 },
+    { x = 480, y = 0, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 37, num_frames = 2 },
+    { x = 400, y = 24, frame_width = 40, frame_height = 24, origin_x = 20, origin_y = 21, num_frames = 2 },
+    { x = 480, y = 40, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 37, num_frames = 2 },
+  },
+}
+animation{
+  name = "sword_tapping",
+  src_image = "hero/new_link1.png",
+  frame_delay = 65,
+  frame_to_loop_on = 1,
+  directions = {
+    { x = 160, y = 0, frame_width = 40, frame_height = 24, origin_x = 20, origin_y = 21, num_frames = 5 },
   },
 }
 animation{

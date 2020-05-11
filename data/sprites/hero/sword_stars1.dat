@@ -4,9 +4,9 @@ animation{
   frame_delay = 70,
   frame_to_loop_on = 0,
   directions = {
-    { x = 96, y = 0, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 13, num_frames = 2 },
-    { x = 96, y = 16, frame_width = 16, frame_height = 16, origin_x = 9, origin_y = 25, num_frames = 2 },
-    { x = 96, y = 32, frame_width = 16, frame_height = 16, origin_x = 20, origin_y = 13, num_frames = 2 },
-    { x = 96, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 0, num_frames = 2 },
+    { x = 400, y = 0, frame_width = 40, frame_height = 24, origin_x = 20, origin_y = 21, num_frames = 2 },
+    { x = 480, y = 0, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 37, num_frames = 2 },
+    { x = 400, y = 24, frame_width = 40, frame_height = 24, origin_x = 20, origin_y = 21, num_frames = 2 },
+    { x = 480, y = 40, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 37, num_frames = 2 },
   },
 }
