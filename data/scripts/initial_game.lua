@@ -16,7 +16,7 @@ function initial_game:initialize_new_savegame(game)
 
   game:set_max_life(12)
   game:set_life(game:get_max_life())
-  game:set_ability("lift", 1)
+  game:set_ability("lift", 0)
   game:set_ability("tunic", 1)
   game:set_ability("sword", 1)
 end
