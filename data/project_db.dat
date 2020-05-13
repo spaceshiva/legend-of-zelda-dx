@@ -8,6 +8,7 @@ sprite{ id = "hero/link1", description = "Link with green armor" }
 sprite{ id = "hero/link_sword1" }
 sprite{ id = "hero/sword1", description = "Hero sword 1" }
 sprite{ id = "hero/sword_stars1" }
+sprite{ id = "hud/dialog_box_message_end", description = "Dialog End" }
 sprite{ id = "menus/solarus_logo", description = "menus/solarus_logo" }
 sprite{ id = "npc/sign" }
 
@@ -19,7 +20,7 @@ item{ id = "sword", description = "Sword" }
 
 language{ id = "en", description = "English" }
 
-font{ id = "TLOZ-Links-Awakening", description = "TLOZ-Links-Awakening" }
+font{ id = "links_awakening", description = "Link's Awakening Font" }
 
 shader{ id = "6xbrz", description = "6xBRZ" }
 shader{ id = "grayscale", description = "grayscale" }
@@ -34,7 +35,7 @@ file{ path = "items", license = "GPL v3" }
 file{ path = "languages", license = "CC BY-SA 4.0" }
 file{ path = "languages/en", license = "CC BY-SA 4.0" }
 file{ path = "languages/en/text", license = "CC BY-SA 4.0" }
-file{ path = "languages/en/text/dialogs.dat", author = "Christopho, Diarandor, Alex Gleason", license = "CC BY-SA 4.0" }
+file{ path = "languages/en/text/dialogs.dat", license = "CC BY-SA 4.0" }
 file{ path = "languages/en/text/strings.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "logos", license = "CC BY-SA 4.0" }
 file{ path = "logos/icon_1024.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }

@@ -17,7 +17,7 @@ end
 function language_manager:get_dialog_font(language)
 
   -- No font differences between languages (for now).
-  return "enter_command", 16
+  return "links_awakening", 8
 end
 
 -- Returns the font and font size to be used to display text in menus
@@ -25,7 +25,7 @@ end
 function language_manager:get_menu_font(language)
 
   -- No font differences between languages (for now).
-  return "enter_command", 16
+  return "links_awakening", 8
 end
 
 -- Returns the font and font size to be used to display text on HUD icons
@@ -33,7 +33,7 @@ end
 function language_manager:get_hud_icons_font(language)
 
   -- No font differences between languages (for now).
-  return "enter_command", 16
+  return "links_awakening", 8
 end
 
 return language_manager

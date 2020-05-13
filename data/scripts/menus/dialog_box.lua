@@ -47,7 +47,7 @@ local function initialize_dialog_box_features(game)
     box_dst_position = nil,      -- Destination coordinates of the dialog box.
     question_dst_position = nil, -- Destination coordinates of the question icon.
     icon_dst_position = nil,     -- Destination coordinates of the icon.
-    text_color = { 115, 59, 22 } -- Text color.
+    text_color = { 251, 253, 138 } -- Text color.
 
   }
 
@@ -76,7 +76,8 @@ local function initialize_dialog_box_features(game)
   end
   dialog_box.dialog_surface = sol.surface.create(sol.video.get_quest_size())
   dialog_box.box_img = sol.surface.create("hud/dialog_box.png")
-  dialog_box.icons_img = sol.surface.create("hud/dialog_icons.png")
+  -- to add our own icons later
+  --dialog_box.icons_img = sol.surface.create("hud/dialog_icons.png")
   dialog_box.end_lines_sprite = sol.sprite.create("hud/dialog_box_message_end")
 
   -- Exits the dialog box system.
@@ -150,7 +151,7 @@ local function initialize_dialog_box_features(game)
     if not dialog_box:is_full() then
       dialog_box:add_character()
     else
-      sol.audio.play_sound("message_end")
+      -- sol.audio.play_sound("message_end")
       if dialog_box:has_more_lines()
         or dialog_box.dialog.next ~= nil
         or dialog_box.selected_answer ~= nil then
@@ -158,9 +159,11 @@ local function initialize_dialog_box_features(game)
         game:set_custom_command_effect("action", "next")
       else
         dialog_box.end_lines_sprite:set_animation("last")
-        game:set_custom_command_effect("action", "return")
+        --game:set_custom_command_effect("action", "return")
       end
-      game:set_custom_command_effect("attack", nil)
+      if game.set_custom_command_effect ~= nil then
+        game:set_custom_command_effect("attack", nil)
+      end
     end
   end
 
@@ -207,12 +210,13 @@ local function initialize_dialog_box_features(game)
     -- Show the dialog.
     self:show_dialog()
 
+    -- TODO: uncomment once we have a hud
     -- Set the correct HUD mode.
-    self.backup_hud_mode = game:get_hud_mode()
-    game:set_hud_mode("dialog")
+    --self.backup_hud_mode = game:get_hud_mode()
+    --game:set_hud_mode("dialog")
     
     -- Set the HUD on top.
-    game:bring_hud_to_front()
+    --game:bring_hud_to_front()
 
   end
 
@@ -226,7 +230,7 @@ local function initialize_dialog_box_features(game)
     end
 
     -- Restore HUD state.
-    game:set_hud_mode(self.backup_hud_mode)
+    --game:set_hud_mode(self.backup_hud_mode)
   end
 
   -- A dialog starts (not necessarily the first one of its sequence).
@@ -444,11 +448,11 @@ local function initialize_dialog_box_features(game)
 
     if not special and current_char ~= nil and self.need_letter_sound then
       -- Play a letter sound sometimes.
-      sol.audio.play_sound("message_letter")
+      -- sol.audio.play_sound("message_letter")
       self.need_letter_sound = false
-      sol.timer.start(self, letter_sound_delay, function()
-        self.need_letter_sound = true
-      end)
+      --sol.timer.start(self, letter_sound_delay, function()
+      --  self.need_letter_sound = true
+      --end)
     end
 
     if self.gradual then
@@ -518,7 +522,7 @@ local function initialize_dialog_box_features(game)
       if self.selected_answer ~= nil
           and not self:has_more_lines()
           and self:is_full() then
-        sol.audio.play_sound("cursor")
+        --sol.audio.play_sound("cursor")
         self.selected_answer = 3 - self.selected_answer  -- Switch between 1 and 2.
       end
     end
