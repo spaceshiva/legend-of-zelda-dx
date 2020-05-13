@@ -2,23 +2,14 @@ map{ id = "overworld/green_ruins", description = "Green Ruins" }
 
 tileset{ id = "awakening/overworld", description = "Overworld" }
 
-sprite{ id = "hero/ground1", description = "Grass under hero" }
-sprite{ id = "hero/ground2", description = "Shallow water under hero" }
+sprite{ id = "destructibles/bush", description = "bush" }
+sprite{ id = "destructibles/rock", description = "rock" }
 sprite{ id = "hero/link1", description = "Link with green armor" }
 sprite{ id = "hero/link_sword1" }
-sprite{ id = "hero/rachel_sword", description = "Sword" }
-sprite{ id = "hero/rachel_tunic", description = "Rachel" }
-sprite{ id = "hero/robyne_tunic", description = "Robyne purple" }
-sprite{ id = "hero/shield_1_above", description = "Shield 1 Above" }
-sprite{ id = "hero/shield_1_below", description = "Shield 1 Below" }
-sprite{ id = "hero/shield_collision_mask", description = "Shield Collision Mask" }
 sprite{ id = "hero/sword1", description = "Hero sword 1" }
 sprite{ id = "hero/sword_stars1" }
-sprite{ id = "hero/trail", description = "Trail" }
-sprite{ id = "hero/tunic1", description = "Eldran red" }
-sprite{ id = "hero/tunic2", description = "Eldran blue" }
-sprite{ id = "hero/tunic3", description = "Eldran purple" }
 sprite{ id = "menus/solarus_logo", description = "menus/solarus_logo" }
+sprite{ id = "npc/sign" }
 
 
 
@@ -163,8 +154,6 @@ file{ path = "sprites/hero/eldran_sword_tapping v2.0.ase", license = "CC BY-SA 4
 file{ path = "sprites/hero/eldran_sword_tapping.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/eldran_victory v2.0.ase", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/eldran_victory.png", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hero/ground1.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hero/ground2.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/hero_on_shield v2.0.ase", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/loading_sword_magic.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/rachel.png", author = "Alex Gleason", license = "CC BY-SA 4.0" }
