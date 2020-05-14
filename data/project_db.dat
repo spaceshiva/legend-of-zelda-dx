@@ -4,10 +4,9 @@ tileset{ id = "awakening/overworld", description = "Overworld" }
 
 sprite{ id = "destructibles/bush", description = "bush" }
 sprite{ id = "destructibles/rock", description = "rock" }
-sprite{ id = "hero/link1", description = "Link with green armor" }
-sprite{ id = "hero/link_sword1" }
-sprite{ id = "hero/sword1", description = "Hero sword 1" }
+sprite{ id = "hero/sword1" }
 sprite{ id = "hero/sword_stars1" }
+sprite{ id = "hero/tunic1", description = "Link with green armor" }
 sprite{ id = "hud/dialog_box_message_end", description = "Dialog End" }
 sprite{ id = "menus/solarus_logo", description = "menus/solarus_logo" }
 sprite{ id = "npc/sign" }
@@ -87,5 +86,4 @@ file{ path = "shaders/sepia.frag.glsl", author = "Vlag", license = "GPL v3" }
 file{ path = "sounds", license = "CC BY-SA 4.0" }
 file{ path = "sprites", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hero/sword1.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "tilesets", license = "CC BY-SA 4.0, CC BY 4.0" }

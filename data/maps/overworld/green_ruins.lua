@@ -12,8 +12,8 @@ local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-  hero:set_tunic_sprite_id("hero/link1")
-  hero:set_sword_sprite_id("hero/link_sword1")
+  hero:set_tunic_sprite_id("hero/tunic1")
+  hero:set_sword_sprite_id("hero/sword1")
   -- You can initialize the movement and sprites of various
   -- map entities here.
 end
