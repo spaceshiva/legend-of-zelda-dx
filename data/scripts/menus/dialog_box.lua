@@ -156,7 +156,7 @@ local function initialize_dialog_box_features(game)
         or dialog_box.dialog.next ~= nil
         or dialog_box.selected_answer ~= nil then
         dialog_box.end_lines_sprite:set_animation("next")
-        game:set_custom_command_effect("action", "next")
+        --game:set_custom_command_effect("action", "next")
       else
         dialog_box.end_lines_sprite:set_animation("last")
         --game:set_custom_command_effect("action", "return")
@@ -547,7 +547,7 @@ local function initialize_dialog_box_features(game)
     end
 
     -- Draw the text.
-    local left_padding = 8
+    local left_padding = 4
     local text_x = x + (self.icon_index == nil and 16 or 48) + left_padding
     local text_y = y - 6
     local line_spacing = 14
@@ -585,7 +585,7 @@ local function initialize_dialog_box_features(game)
 
     -- Draw the end message arrow.
     if self:is_full() then
-      self.end_lines_sprite:draw(self.dialog_surface, x + 103, y + 56)
+      self.end_lines_sprite:draw(self.dialog_surface, x + 200, y + 56)
     end
 
     -- Final blit.

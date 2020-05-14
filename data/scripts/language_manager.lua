@@ -6,6 +6,8 @@
 local language_manager = {}
 
 local default_language = "en"
+local default_font = "ZeldaDXTTBRK"
+local default_size = 12
 
 -- Returns the id of the default language.
 function language_manager:get_default_language()
@@ -17,7 +19,7 @@ end
 function language_manager:get_dialog_font(language)
 
   -- No font differences between languages (for now).
-  return "links_awakening", 8
+  return default_font, default_size
 end
 
 -- Returns the font and font size to be used to display text in menus
@@ -25,7 +27,7 @@ end
 function language_manager:get_menu_font(language)
 
   -- No font differences between languages (for now).
-  return "links_awakening", 8
+  return default_font, default_size
 end
 
 -- Returns the font and font size to be used to display text on HUD icons
@@ -33,7 +35,7 @@ end
 function language_manager:get_hud_icons_font(language)
 
   -- No font differences between languages (for now).
-  return "links_awakening", 8
+  return default_font, default_size
 end
 
 return language_manager

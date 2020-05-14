@@ -1040,7 +1040,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "npc/sign",
-  behavior = "dialog#hub.road_blocked_sign",
+  behavior = "dialog#hub.welcome_sign",
 }
 
 npc{
