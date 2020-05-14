@@ -3,9 +3,14 @@ map{ id = "overworld/green_ruins", description = "Green Ruins" }
 tileset{ id = "awakening/overworld", description = "Overworld" }
 
 sprite{ id = "destructibles/bush", description = "bush" }
+sprite{ id = "destructibles/grass", description = "Walking grass" }
 sprite{ id = "destructibles/rock", description = "rock" }
+sprite{ id = "enemies/enemy_killed", description = "Die " }
+sprite{ id = "enemies/red_spider", description = "Red Spider" }
+sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/sword1" }
 sprite{ id = "hero/sword_stars1" }
+sprite{ id = "hero/trail", description = "Trail" }
 sprite{ id = "hero/tunic1", description = "Link with green armor" }
 sprite{ id = "hud/dialog_box_message_end", description = "Dialog End" }
 sprite{ id = "menus/solarus_logo", description = "menus/solarus_logo" }
@@ -15,6 +20,7 @@ sprite{ id = "npc/sign" }
 
 item{ id = "sword", description = "Sword" }
 
+enemy{ id = "red_spider", description = "Red Spiders" }
 
 
 language{ id = "en", description = "English" }
